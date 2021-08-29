@@ -1,10 +1,10 @@
 {
-  "name": "dvelum/module-designer",
-  "version": "1.6.1",
-  "type": "dvelum3-module",
-  "description": "Designer module for DVelum",
+  "name": "dvelum/ext-library",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "ExtJS Wrapper for DVelum designer",
   "keywords": ["dvelum","designer"],
-  "homepage": "https://github.com/dvelum/module-designer",
+  "homepage": "https://github.com/dvelum/ext-library",
   "license": "GPL-3.0",
   "authors": [
     {
@@ -14,12 +14,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/dvelum/module-designer/issues",
-    "source": "https://github.com/dvelum/module-designer"
+    "issues": "https://github.com/dvelum/ext-library/issues",
+    "source": "https://github.com/dvelum/ext-library"
   },
   "require": {
-    "php":">=7.3",
-    "oomphinc/composer-installers-extender": "^2.0",
-    "dvelum/dvelum": "^3.0"
+    "php":">=7.3"
+  },
+  "autoload": {
+    "psr-0": { "": "src/" }
   }
 }
